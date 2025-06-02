@@ -12,7 +12,7 @@ export function HeroContainer() {
           <Hero.Title mobWidth="200px" maxWidth="455px" color="#474747">
             Solar Energy is <Hero.Line />
           </Hero.Title>
-          <Hero.Title mobWidth="180px" maxWidth="409px" color="#027385">
+          <Hero.Title mobWidth="180px" maxWidth="409px" color="#01924c">
             THE FUTURE! <Hero.Line />
           </Hero.Title>
         </Hero.TitleGroup>

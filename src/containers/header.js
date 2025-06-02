@@ -35,8 +35,8 @@ export function HeaderContainer() {
     return (
       <Header.Button
         onClick={() => navigate("/academy")}
-        bgColor="rgba(1, 51, 101, 0.1)"
-        color="var(--secondry-color)"
+        bgColor="var(--secondry-color)"
+        color="#fff"
         bgHover="var(--secondry-color)"
         colHover="white"
       >

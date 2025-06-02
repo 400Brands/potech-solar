@@ -83,5 +83,5 @@ export const Desc = styled.p`
 `;
 
 export const TextColor = styled.span`
-  color: var(--primary-color);
+  color: var(--secondry-color);
 `;
