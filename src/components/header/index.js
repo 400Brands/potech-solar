@@ -67,6 +67,7 @@ Header.AcademyLogo = function HeaderAcademyLogo() {
     <div>
       <img
         src="https://res.cloudinary.com/dgbreoalg/image/upload/v1748880341/Your_paragraph_text__2_-removebg-preview_eyxggg.png"
+        alt="logo"
         width={150}
       />
     </div>
@@ -77,6 +78,7 @@ Header.Logo = function HeaderLogo() {
     <div>
       <img
         src="https://res.cloudinary.com/dgbreoalg/image/upload/v1748879928/Your_paragraph_text__1_-removebg-preview_rvto74.png"
+        alt="logo"
         width={150}
       />
     </div>

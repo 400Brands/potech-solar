@@ -20,6 +20,7 @@ export function SmcContainer(props) {
         <SmcGroup.Card mobWidth="85%">
           <img
             src="https://res.cloudinary.com/dgbreoalg/image/upload/v1748879928/Your_paragraph_text__1_-removebg-preview_rvto74.png"
+            alt="logo"
             width={150}
           />
           <SmcGroup.Round>

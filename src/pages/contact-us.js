@@ -12,7 +12,6 @@ import {
 
 import { HeaderContainer } from "../containers/header";
 import { HeaderAcademyContainer } from "../containers/header-academy";
-import CityData from "../fixtures/branches.json";
 import emailjs from "@emailjs/browser";
 
 export default function ContactUs() {
