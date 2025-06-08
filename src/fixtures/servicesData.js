@@ -1,7 +1,7 @@
 export const servicesData = [
   {
     serviceName: "Development",
-    desc: "SMC always strives to reach the most suitable solutions for customer requirements through research and development of new constructive ideas related to the Grid connected PV systems or isolated from it in addition to solar heating systems.",
+    desc: "At PO Technology, development is the heartbeat of our innovation journey. We are committed to continuous research, ideation, and prototyping of new engineering solutions that address real-world challenges. Our passion drives us to develop devices and systems across fields like electronics, robotics, artificial intelligence, and clean energy technologies. We prioritize indigenous development, empowering our local team to build globally competitive engineering products.",
     svgElem: (
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
         <path
@@ -18,8 +18,8 @@ export const servicesData = [
   },
 
   {
-    serviceName: "Desing",
-    desc: "Successful investments always and ever start through the appropriate planning, arranging and drawing a road map, that SMC starts in its first steps by developing the most appropriate design for the needs of its customers according to the best international and local standards.",
+    serviceName: "Designing",
+    desc: "Design is central to our creative process. We specialize in the design of functional, aesthetic, and innovative engineering solutions—ranging from electronic circuits to intelligent display systems and automated devices. Our approach is to combine technical excellence with user-centered creativity to ensure our designs are both impactful and efficient.",
     svgElem: (
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
         <path
@@ -37,7 +37,7 @@ export const servicesData = [
 
   {
     serviceName: "Installation",
-    desc: "And because the implementation of dreams and big plans requires a strong and qualified team at the highest level of efficiency and readiness to carry out the work, SMC always maintains the high technical and professional spirit of its team of technicians and engineers responsible for the implementation of these projects.",
+    desc: "Our team delivers professional installation services tailored to various engineering systems such as solar and inverter setups, display signage, and electronic control systems. We pride ourselves on precision, safety, and attention to detail, ensuring every installation functions optimally and reflects the client’s vision.",
     svgElem: (
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
         <path
@@ -54,8 +54,8 @@ export const servicesData = [
   },
 
   {
-    serviceName: "Evalution",
-    desc: "Monitoring the progress of the production process in power plants and continuous evaluation of performance helps maintain the safety of the various parts of the plant, ensure its efficiency, and prevent business disruption by predicting future problems and pitfalls and directing the maintenance team to intervene and correct the situation at the appropriate times.",
+    serviceName: "Evaluation",
+    desc: "Our engineering solutions are subjected to thorough evaluation processes, from needs analysis to performance testing and post-implementation reviews. This enables us to measure efficiency, identify areas of improvement, and deliver evidence-based insights that shape future innovations.",
     svgElem: (
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
         <path
@@ -73,7 +73,7 @@ export const servicesData = [
 
   {
     serviceName: "Consulting",
-    desc: "The first and always the most important step in the journey of searching for new and renewable energy solutions is to obtain the appropriate consultations through a highly skilled and experienced team, which SMC provides to its clients.",
+    desc: "We provide expert consulting services to individuals, businesses, and organizations seeking smart, energy-efficient, and tech-driven engineering solutions. Our team offers guidance on solar energy systems, electronics integration, automation, and product development, helping clients navigate technical decisions with confidence and clarity.",
     svgElem: (
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="29">
         <path
@@ -90,7 +90,7 @@ export const servicesData = [
 
   {
     serviceName: "Procurement",
-    desc: "SMC is keen to provide all its projects and clients with a set of the best products that conform to standard international and local specifications in order to ensure the right quality, the right price and maintain high levels of continuity and reliability.",
+    desc: "We streamline the sourcing and procurement of high-quality engineering materials, components, and tools needed for project execution. By leveraging trusted partnerships and technical expertise, we ensure that every item procured meets industry standards and project specifications, thereby reducing risk and enhancing reliability.",
     svgElem: (
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
         <path
@@ -108,7 +108,7 @@ export const servicesData = [
 
   {
     serviceName: "Maintenance",
-    desc: "Maintaining the safety and life span of equipment and components through preventive and corrective maintenance is one of the most important sensitive points that SMC seeks to maintain between it and its customers.",
+    desc: "We offer comprehensive maintenance solutions to ensure the long-term performance and reliability of the systems we deploy. From periodic checks to repairs and upgrades, our maintenance services are proactive and responsive, minimizing downtime and extending product life cycles.",
     svgElem: (
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30">
         <path
@@ -124,7 +124,7 @@ export const servicesData = [
 
   {
     serviceName: "Training",
-    desc: "Providing strong training opportunities is one of the main tasks that SMC maintains in order to train customers to deal with power plants owned by them, follow up their work and evaluate their performance, in addition to raising the technical and professional level of the technical and engineering sector by providing appropriate training opportunities for engineers and technicians on a wide geographical range through the branches of SMC Academy in cooperation with a group of the most powerful engineering companies and platforms in the Egyptian market.",
+    desc: "We are passionate about knowledge transfer. Through our hands-on training programs, we empower youths and aspiring engineers with practical skills in electronics, solar technology, Arduino programming, and device fabrication. Our training initiatives are designed to build capacity, stimulate innovation, and cultivate a workforce for tomorrow’s engineering challenges.",
     svgElem: (
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30">
         <path

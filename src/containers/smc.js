@@ -2,13 +2,13 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { SmcGroup, Hero, Header } from "../components";
 
-export function SmcContainer() {
+export function SmcContainer(props) {
   const navigate = useNavigate();
   return (
-    <SmcGroup>
+    <SmcGroup {...props}>
       <SmcGroup.InfoHolder gap="8px" flex="1">
-        <SmcGroup.Title mobWidth="150px" maxWidth="246px">
-          PO Tech <Hero.Line />
+        <SmcGroup.Title mobWidth="150px" maxWidth="">
+          PO Technologies <Hero.Line />
         </SmcGroup.Title>
         <Hero.Desc maxWidth="600px">
           PO Tech provides all relative works & services to Solar Energy.Also
@@ -45,6 +45,7 @@ export function SmcContainer() {
         <SmcGroup.Card mobWidth="85%">
           <img
             src="https://res.cloudinary.com/dgbreoalg/image/upload/v1748880341/Your_paragraph_text__2_-removebg-preview_eyxggg.png"
+            alt="our services"
             width={150}
           />
           <SmcGroup.Round>

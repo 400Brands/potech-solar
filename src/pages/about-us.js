@@ -33,11 +33,12 @@ export default function AboutUs() {
             </About.Round>
             <About.CardTitle>Who are we?</About.CardTitle>
             <About.CardDesc>
-              SMC Group is a fresh outbreak that provides all relative works &
-              services to Solar Energy: (PV Solar plants, Solar Water Heaters,
-              PV Modules, Energy Saving System, Consulting) And also provides
-              Training for Electrical engineering students in different
-              branches.
+              PO Technology is a forward-thinking engineering firm committed to
+              innovation, creativity, and practical solutions in the fields of
+              electronics, robotics, mechanical systems, automation, AI,
+              electric vehicles, and clean energy. Founded by passionate
+              technologists, we specialize in research, design, construction,
+              manufacturing, training, and consulting. 
             </About.CardDesc>
           </About.Card>
           <About.Card>
@@ -46,21 +47,26 @@ export default function AboutUs() {
             </About.Round>
             <About.CardTitle>Mission</About.CardTitle>
             <About.CardDesc>
-              is to be the most reliable company in the fields of Solar Energy &
-              Energy Saving, and to provide the most efficient trainings for
-              engineers who are looking for mastering their field.
+              Our mission is to engineer meaningful innovations that improve
+              lives, empower industries, and promote technological independence.
+              Through research, hands-on training, and the development of
+              practical devices and systems, we aim to contribute to national
+              development while raising the next generation of creative
+              engineers and problem-solvers.
             </About.CardDesc>
           </About.Card>
           <About.Card>
             <About.Round>
               <Eye size="26px" color="var(--color-hover)" />
             </About.Round>
-            <About.CardTitle>Vission</About.CardTitle>
+            <About.CardTitle>Vision</About.CardTitle>
             <About.CardDesc>
-              is to make the regular consumer, who complains of the Excessive
-              costs of energy, a producer who see the energy is not an obstacle
-              in his life nor his earning, and also to create a generation of
-              engineers that know how to do the work, not only how it works.
+              Our vision is to become a globally recognized center of excellence
+              in engineering and innovation—leading the charge in Africa’s
+              technological advancement. We aspire to be a hub where
+              groundbreaking ideas are developed into tangible products, where
+              young talents are nurtured, and where technology is used to drive
+              sustainable development across all sectors.
             </About.CardDesc>
           </About.Card>
         </About.CardsHolder>

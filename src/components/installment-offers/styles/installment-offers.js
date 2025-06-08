@@ -38,7 +38,7 @@ export const BankImage = styled.img`
   width: 80px;
   height: 80px;
   border-radius: 8px;
-  object-fit: cover;
+  object-fit: contain;
 `;
 
 export const BigImage = styled.div`

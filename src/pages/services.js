@@ -10,7 +10,7 @@ export default function ServicesPage() {
       <HeaderContainer />
       <Services>
         <Form.PageName>
-          Serivces <Hero.Line />
+          Services <Hero.Line />
         </Form.PageName>
       </Services>
       <Services.Container>

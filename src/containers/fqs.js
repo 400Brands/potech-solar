@@ -9,8 +9,8 @@ export function FqsContainer() {
         <Fqs.Group direction="column" gap="8px">
           <Fqs.Title>Want to install a solar power plant?</Fqs.Title>
           <Hero.Desc>
-            Contact us and we will tell you the most suitable station for
-            according to your consumption
+            Chat with our AI assistant to get a personalized quotation based on
+            your consumption.
           </Hero.Desc>
         </Fqs.Group>
 
@@ -21,12 +21,12 @@ export function FqsContainer() {
             navigate("/contact-us");
           }}
           bgColor="rgba(2, 115, 133, 0.1)"
-          color="var(--primary-color)"
+          color="var(--secondry-color)"
           bgHover="var(--primary-color)"
           colHover="white"
           self="flex-end"
         >
-          Contact us
+          ChatBot AI
         </Header.Button>
       </Fqs.Group>
     </Fqs>

@@ -34,9 +34,7 @@ export function TrainingProgramsContainer() {
             </Hero.Title>
             <Hero.Title color="var(--color-black)" maxWidth="477px">
               for{" "}
-              <span style={{ color: "var(--secondry-color)" }}>
-                Engineering
-              </span>
+              <span style={{ color: "var(--secondry-color)" }}>Youths &</span>
               <Hero.Line bg />
             </Hero.Title>
             <Hero.Title color="var(--secondry-color)" maxWidth="277px">
@@ -45,12 +43,12 @@ export function TrainingProgramsContainer() {
             </Hero.Title>
           </Hero.TitleGroup>
           <Hero.Desc maxWidth="400px">
-            Providing multiple Training Programs for engineering students in
-            different branches.
+            Providing multiple Training Programs for Youth & students both
+            offline and Online Site
           </Hero.Desc>
           <Hero.Holder>
             <Hero.Link
-              href="https://forms.gle/82XTg6aCGyHTorau8"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfwIsb2nYI4_gDYEBNizq6AGuxsJ8EkDsOUg_BWor-IFODA5w/viewform?usp=header"
               target="_blank"
               color="true"
             >

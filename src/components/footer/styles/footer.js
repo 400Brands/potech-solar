@@ -2,7 +2,7 @@ import styled from "styled-components/macro";
 
 export const Container = styled.footer`
   padding: 40px 0;
-  background-color: var(--primary-color);
+  background-color: var(--secondry-color);
 `;
 
 export const Row = styled.div`

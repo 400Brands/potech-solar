@@ -55,12 +55,12 @@ export default function ContactUs() {
           </Form.Text>
           <div className="social-group">
             <Form.SocialContent bgColor="rgba(2, 115, 133, 0.1)">
-              <Form.SocialTitle color="#027385">SMC Group</Form.SocialTitle>
+              <Form.SocialTitle color="#027385">POTECH Group</Form.SocialTitle>
               <Form.SocialMediaLinks>
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  href="https://www.facebook.com/SolarMasterCell"
+                  href="https://www.instagram.com/potechnologies/"
                 >
                   <FacebookLogo
                     fontSize={20}
@@ -71,7 +71,7 @@ export default function ContactUs() {
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  href="https://www.instagram.com/smc.egy"
+                  href="https://www.instagram.com/potechnologies/"
                 >
                   <InstagramLogo
                     fontSize={20}
@@ -80,7 +80,7 @@ export default function ContactUs() {
                   />
                 </a>
                 <a
-                  href="https://www.linkedin.com/company/sollarmastercell"
+                  href="https://www.instagram.com/potechnologies/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -92,33 +92,7 @@ export default function ContactUs() {
                 </a>
               </Form.SocialMediaLinks>
             </Form.SocialContent>
-            <Form.SocialContent bgColor="rgba(1, 51, 101, 0.1)">
-              <Form.SocialTitle color="#013365">Academy</Form.SocialTitle>
-              <Form.SocialMediaLinks>
-                <a
-                  href="https://www.facebook.com/SMC.Academy.egy"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <FacebookLogo
-                    color="rgb(1, 51, 101)"
-                    fontSize={20}
-                    weight="fill"
-                  />
-                </a>
-                <a
-                  href="https://www.instagram.com/smc.academy__"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <InstagramLogo
-                    fontSize={20}
-                    color="rgb(1, 51, 101)"
-                    weight="fill"
-                  />
-                </a>
-              </Form.SocialMediaLinks>
-            </Form.SocialContent>
+            
             <a
               style={{ textDecoration: "none" }}
               href="https://wa.me/message/UHP7RC6ZLSHGL1"
@@ -234,21 +208,21 @@ export default function ContactUs() {
                 <Form.InfoGroup alignItems="center">
                   <At size={20} color="var(--color-hover)" />
                   <Form.Desc color="var(--color-hover)">
-                    info@smcgroupegy.com
+                    potechnologyltd@gmail.com
                   </Form.Desc>
                 </Form.InfoGroup>
                 <Form.InfoGroup alignItems="center">
                   <Phone size={20} color="var(--color-hover)" />
                   <Form.Desc color="var(--color-hover)">
-                    +20 109 580 8279
+                    +234 703 477 9547
                   </Form.Desc>
                 </Form.InfoGroup>
                 <Form.InfoGroup>
                   <MapPin size={20} color="var(--color-hover)" />
                   <Form.Desc color="var(--color-hover)">
                     Headquarter: <br />
-                    El-Madina El-Monawwara, First 6th of October. 6 October
-                    City, Giza Governorate, Egypt
+                    Phase 2, 69 1st Ave Fha, Lugbe 900107, Opposite Kilimanjaro
+                    Lugbe, Federal Capital Territory
                   </Form.Desc>
                 </Form.InfoGroup>
                 <Form.GoogleMap
@@ -274,17 +248,6 @@ export default function ContactUs() {
             />
             <Form.CircleGroup />
           </Form.ContactInfo>
-          <Form.Branches>
-            <Form.BranchGroup>
-              <MapPin size={20} weight="fill" />
-              <Form.AcademyBranches>SMC Academy Branches</Form.AcademyBranches>
-            </Form.BranchGroup>
-            <Form.CityGroup>
-              {CityData.map(({ city }) => (
-                <Form.City key={city}>{city}</Form.City>
-              ))}
-            </Form.CityGroup>
-          </Form.Branches>
         </Form.Inner>
       </Form>
     </>

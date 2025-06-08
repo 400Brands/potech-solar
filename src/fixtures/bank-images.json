@@ -1,19 +1,19 @@
 [
     {
-        "src": "/images/banks/afric.jpg",
-        "name": "afric-bank"
+        "src": "https://imgs.search.brave.com/MAwod-64_ItUGnMzsmjE8DjVZE2OqBDaBVCO7PHEmL8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90cndz/dG9ja2Jyb2tlcnMu/d29yZHByZXNzLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAx/OS8wNC9kYWNjZXNz/LnBuZz93PTYyNw",
+        "name": "access-bank"
     },
     {
-        "src": "/images/banks/ahly.jpg",
-        "name": "al ahlly"
+        "src": "https://imgs.search.brave.com/vkQPNXkdndm-pTfIxzrPyNFEkqpqFLye2SxYQrj3hUI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hcGJl/Zi1iai5vcmcvd3At/Y29udGVudC91cGxv/YWRzLzIwMTYvMDcv/bG9nby11YmEtYmFu/ay0zMDB4MTgwLmpw/Zw",
+        "name": "UBA"
     },
     {
-        "src": "/images/banks/bank-masr.png",
-        "name": "bank masr"
+        "src": "https://imgs.search.brave.com/Aa7mZHLq3Eac-X3b2ZJLceIks0CtATJit24zkob7SNw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zbWFs/bGltZy5wbmdrZXku/Y29tL3BuZy9zbWFs/bC8yMDYtMjA2OTAz/NV9maXJzdGJhbmst/bG9nb3MtZmlyc3Qt/YmFuay1vZi1uaWdl/cmlhLWxvZ28ucG5n",
+        "name": "FirstBank"
     },
     {
-        "src": "/images/banks/bank1.jpg",
-        "name": "random-bank"
+        "src": "https://imgs.search.brave.com/XVt_sM_dI8gddVFPCYx5VkqDTdNf53B6ODxbE16t9XA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9leWV3/YXkubmcvd3AtY29u/dGVudC91cGxvYWRz/LzIwMTYvMDUvWmVu/aXRoLUJhbmstbG9n/by5qcGc",
+        "name": "Zenith Bank"
     },
     {
         "src": "/images/banks/bank2.jpg",

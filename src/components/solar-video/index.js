@@ -4,10 +4,11 @@ import styled from "styled-components/macro";
 export default function SolarVideo() {
   return (
     <Video
-      src="/video/video.mp4"
+      src="https://res.cloudinary.com/dgbreoalg/video/upload/v1749309854/Innovative_Solar_Panels__3D_Animation_Showcasing_Sun-Tracking_Technology_vbmhlp.mp4"
       preload="false"
       controls={true}
       muted={true}
+      autoPlay
     />
   );
 }

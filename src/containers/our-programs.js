@@ -12,28 +12,28 @@ export function OurProgramsContainer() {
   const [cursor, setCursor] = useState("grab");
   const [clientXonMouseDown, setClientXonMouseDown] = useState(null);
   const [clientYonMouseDown, setClientYonMouseDown] = useState(null);
-  // add category object inside local storage
+
   useEffect(() => {
     console.log({ cursor });
   }, [cursor]);
+
   function handleOnMouseDown(e) {
     setClientXonMouseDown(e.clientX);
     setClientYonMouseDown(e.clientY);
-    e.preventDefault(); // stops weird link dragging effect
+    e.preventDefault();
   }
 
   function handleOnClick(e) {
     e.stopPropagation();
     if (clientXonMouseDown !== e.clientX || clientYonMouseDown !== e.clientY) {
-      // prevent link click if the element was dragged
       e.preventDefault();
     }
   }
 
   return (
     <OurProgrames>
-      <SmcGroup.Title maxWidth="540px">
-        Our Programes Category
+      <SmcGroup.Title maxWidth="">
+        Our Training Category
         <Hero.Line bg />
       </SmcGroup.Title>
       <OurProgrames.SliderHolder
@@ -44,11 +44,19 @@ export function OurProgramsContainer() {
         <Carousel
           removeArrowOnDeviceType={["mobile", "tablet", "desktop"]}
           responsive={responsive}
-          pauseOnHover={true}
-          transitionDuration={90}
+          pauseOnHover={false} // Changed to false to keep moving even on hover
+          transitionDuration={500} // Increased for smoother transitions
           minimumTouchDrag={20}
           autoPlay={true}
+          autoPlaySpeed={2000} // Added: Controls speed of auto-advance (2 seconds)
+          infinite={true} // Added: Makes carousel loop infinitely
           focusOnSelect={true}
+          containerClass="carousel-container"
+          itemClass="carousel-item"
+          // Additional props for better continuous movement
+          keyBoardControl={true}
+          customTransition="transform 500ms ease-in-out"
+          shouldResetAutoplay={true} // Resets autoplay after user interaction
         >
           {CategotyData.map((categ) => (
             <Link

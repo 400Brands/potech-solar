@@ -3,9 +3,9 @@ import { SmcGroup, Slider, Hero, OurWork } from "../components";
 import sliderHome from "../fixtures/slider-home.json";
 import { handelLazyLoadBackgroundImage } from "../helper/lazyloadBackground";
 import { PLACE_HOLDER } from "../constant/routes";
-export function OurWorkContainer() {
+export function OurWorkContainer(props) {
   return (
-    <OurWork>
+    <OurWork {...props}>
       <Slider>
         {sliderHome.map(({ src }) => {
           return (
@@ -18,7 +18,7 @@ export function OurWorkContainer() {
       </Slider>
       <SmcGroup.InfoHolder width="38.4%">
         <SmcGroup.Title isLong="200px" mobWidth="200px" maxWidth="330px">
-          From our work
+          Our Gallery
           <Hero.Line />
         </SmcGroup.Title>
         <Hero.Desc maxWidth="600px">

@@ -70,7 +70,7 @@ export const Line = styled.div`
   left: 1%;
   bottom: 10%;
   background-color: ${({ bg }) =>
-    bg ? "rgba(1, 51, 101, 0.1)" : "rgba(2, 115, 133, 0.1)"};
+    bg ? "rgba(2, 115, 133, 0.1)" : "rgba(2, 115, 133, 0.1)"};
   height: 19px;
 `;
 

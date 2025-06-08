@@ -72,7 +72,7 @@ export const SmallCricle = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--primary-color);
+  color: #000000;
 `;
 
 export const Desc = styled.p`

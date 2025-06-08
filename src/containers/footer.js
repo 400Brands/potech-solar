@@ -17,13 +17,12 @@ export function FooterContainer() {
         <Footer.Column self="flex-end" gap="16px">
           <Footer.Logo />
           <Footer.Desc maxWidth="430px">
-            SMC Group provides all relative works & services to Solar Energy.
-            Also provides Trainings for engineering students in different
-            branches.
+            Provides all relative works & services to Solar Energy. Also
+            provides Trainings for students and youth in different branches.
           </Footer.Desc>
           <Footer.Group gap="4px">
             <Copyright color={iconColor} />
-            <Footer.Desc>SMC 2020</Footer.Desc>
+            <Footer.Desc>POTECH 2025</Footer.Desc>
           </Footer.Group>
         </Footer.Column>
         <Footer.Break />
@@ -32,21 +31,21 @@ export function FooterContainer() {
           <Footer.Group gap="8px">
             <a
               rel="noreferrer"
-              href="https://www.facebook.com/SolarMasterCell"
+              href="https://www.instagram.com/potechnologies/"
               target="_blank"
             >
               <FacebookLogo fontSize={iconSize} color={iconColor} />
             </a>
             <a
               rel="noreferrer"
-              href="https://www.instagram.com/smc.egy"
+              href="https://www.instagram.com/potechnologies/"
               target="_blank"
             >
               <InstagramLogo fontSize={iconSize} color={iconColor} />
             </a>
             <a
               rel="noreferrer"
-              href="https://www.linkedin.com/company/sollarmastercell"
+              href="https://www.instagram.com/potechnologies/"
               target="_blank"
             >
               <LinkedinLogo fontSize={iconSize} color={iconColor} />
@@ -60,13 +59,13 @@ export function FooterContainer() {
             <MapPin fontSize="20px" color={iconColor} />
             <Footer.Desc>
               Headquarter: <br />
-              El-Madina El-Monawwara, First 6th of October. <br /> 6 October
-              City, Giza Governorate, Egypt
+              Phase 2, 69 1st Ave Fha, Lugbe 900107, <br />
+              Opposite Kilimanjaro Lugbe, Federal Capital Territory
             </Footer.Desc>
           </Footer.Group>
           <Footer.Group gap="8px">
             <Phone fontSize="20px" color={iconColor} />
-            <Footer.Desc>+20 109 580 8279</Footer.Desc>
+            <Footer.Desc>+234 703 477 9547</Footer.Desc>
           </Footer.Group>
         </Footer.Column>
       </Footer.Row>
