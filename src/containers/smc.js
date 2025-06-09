@@ -32,7 +32,7 @@ export function SmcContainer(props) {
             Solar Energy
           </SmcGroup.Description>
           <Header.Button
-            color="var(--primary-color)"
+            color="var(--secondry-color)"
             bgColor="rgba(71, 168, 6, 0.1)"
             bgHover="var(--primary-color)"
             colHover="white"

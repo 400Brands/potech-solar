@@ -9,6 +9,7 @@ export default function SolarVideo() {
       controls={true}
       muted={true}
       autoPlay
+      loop
     />
   );
 }

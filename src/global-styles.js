@@ -22,7 +22,7 @@ h1,h2,h3,h4 {
      --color-hover: #f7f7f7;
      --color-gray: #757575;
      --color-desc: #8c8c8c;
-     --secondry-color: #00bf63;
+     --secondry-color:rgb(1, 167, 86);
      --title-size: 5rem;
      --title4-size: 4rem; 
      --desc-size: 1.8rem;

@@ -10,7 +10,7 @@ export function OurServicesContainer(props) {
           <Hero.Line />
         </SmcGroup.Title>
         <Hero.Desc>
-          <Benefits.TextColor>POTECH</Benefits.TextColor> handles your whole
+          <Benefits.TextColor><b>POTECH</b></Benefits.TextColor> handles your whole
           solar journey from A-Z
         </Hero.Desc>
       </OurServices.Group>

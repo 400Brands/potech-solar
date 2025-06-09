@@ -2,20 +2,14 @@ import React from "react";
 import { Hero, TrainingPrograms } from "../components";
 import { CaretCircleRight } from "phosphor-react";
 import { OurProgramsContainer } from "./our-programs";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 export function TrainingProgramsContainer() {
   const renderLottie = () => {
     return (
-      <lottie-player
-        src="https://assets2.lottiefiles.com/packages/lf20_h1qhfkkm.json"
-        background="transparent"
+      <DotLottieReact
+        src="https://lottie.host/ae5cfef1-4e80-45ac-8e3f-6bb100d78093/XtzMR5RBEr.json"
         speed="1"
-        style={{
-          width: "477px",
-
-          marginTop: "30px",
-          padding: "0",
-        }}
         loop
         autoplay
       />

@@ -43,7 +43,13 @@ export const Content = styled.div`
 `;
 
 export const LottieHolder = styled.div`
-  height: 100%;
+  position: absolute;
+  right: -5%;
+  top: 3%;
+  height: 500px;
+  z-index: 1;
+  transform: scaleX(-1); 
+
   @media (max-width: 600px) {
     height: 300px;
   }

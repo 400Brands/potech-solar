@@ -101,7 +101,7 @@ export const Image = styled.div`
 
 export const Link = styled.a`
   color: ${({ color }) =>
-    color ? "var(--secondry-color)" : "var(--primary-color)"};
+    color ? "var(--secondry-color)" : "var(--secondry-color)"};
   font-size: var(--link-size);
   font-weight: 600;
   list-style: none;
@@ -120,11 +120,11 @@ export const WorkerImage = styled.div`
   position: absolute;
   top: 11%;
   right: 7.8%;
-  background: url(${({ src }) => `/images/${src}.svg`}) center top / contain
-    no-repeat;
-  height: 500px;
+    center top / contain no-repeat;
+  height: 600px;
   width: 820px;
   z-index: 600;
+  transform: scaleX(-1); 
   @media (min-width: 1900px) {
     top: 8%;
     right: 5%;
