@@ -8,13 +8,13 @@ export function InstallmentContainer() {
       <Installment.Group flex="1" gap="40px">
         <Installment.Group gap="8px">
           <SmcGroup.Title mobWidth="245px" maxWidth="407px">
-            Installment Offers
+            Payment Options
             <Hero.Line />
           </SmcGroup.Title>
           <Hero.Desc maxWidth="800px">
             Now you can buy a solar power plant, solar heater or solar
             headlights and pay the same price as cash. you can
-            <Benefits.TextColor> installment</Benefits.TextColor> your invoice
+            <Benefits.TextColor> make Payment</Benefits.TextColor> your invoice
             <Benefits.TextColor> without interest</Benefits.TextColor> throught
             the following banks:
           </Hero.Desc>

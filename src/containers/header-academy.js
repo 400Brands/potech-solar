@@ -47,12 +47,12 @@ export function HeaderAcademyContainer() {
     return (
       <Header.Button
         onClick={() => navigate("/")}
-        color="var(--primary-color)"
+        color="var(--secondry-color)"
         bgColor="rgba(2, 115, 133, 0.1)"
         bgHover="var(--primary-color)"
         colHover="white"
       >
-        Back to Group
+        Back Home
       </Header.Button>
     );
   };

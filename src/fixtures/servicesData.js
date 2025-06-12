@@ -1,7 +1,7 @@
 export const servicesData = [
   {
     serviceName: "Development",
-    desc: "At PO Technology, development is the heartbeat of our innovation journey. We are committed to continuous research, ideation, and prototyping of new engineering solutions that address real-world challenges. Our passion drives us to develop devices and systems across fields like electronics, robotics, artificial intelligence, and clean energy technologies. We prioritize indigenous development, empowering our local team to build globally competitive engineering products.",
+    desc: "At PO Technology, development is the heartbeat of our innovation journey. We are committed to continuous research, ideation, and prototyping of new engineering solutions that address real-world challenges. We prioritize indigenous development, empowering our local team to build globally competitive engineering products.",
     svgElem: (
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
         <path

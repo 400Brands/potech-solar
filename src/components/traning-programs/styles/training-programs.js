@@ -48,8 +48,14 @@ export const LottieHolder = styled.div`
   top: 3%;
   height: 500px;
   z-index: 1;
-  transform: scaleX(-1); 
+  transform: scaleX(-1);
 
+  /* Hide on screens smaller than 768px */
+  @media (max-width: 768px) {
+    display: none; /* This will hide the LottieHolder */
+  }
+
+  /* Existing media queries for height adjustments (will be overridden by display: none below 768px) */
   @media (max-width: 600px) {
     height: 300px;
   }

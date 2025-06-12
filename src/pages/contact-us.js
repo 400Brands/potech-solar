@@ -91,10 +91,10 @@ export default function ContactUs() {
                 </a>
               </Form.SocialMediaLinks>
             </Form.SocialContent>
-            
+
             <a
               style={{ textDecoration: "none" }}
-              href="https://wa.me/message/UHP7RC6ZLSHGL1"
+              href="https://wa.me/+2348058429181"
               target="_blank"
               rel="noreferrer"
             >
