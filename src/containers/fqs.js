@@ -26,7 +26,7 @@ export function FqsContainer() {
           colHover="white"
           self="flex-end"
         >
-          ChatBot AI
+          Contact Us
         </Header.Button>
       </Fqs.Group>
     </Fqs>
