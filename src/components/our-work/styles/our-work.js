@@ -29,24 +29,9 @@ export const Inner = styled.div`
 `;
 
 export const ImageHolder = styled.div`
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, hsl(0, 0%, 0%) 100%),
+    url(${({ src }) => src}) center / contain no-repeat; /* Changed 'cover' to 'contain' */
   width: 100%;
   height: 450px;
-  position: relative; /* Needed for absolute positioning of the image and gradient */
-  overflow: hidden; /* Hide anything that overflows if object-fit is used with 'cover' */
-`;
-
-export const StyledImage = styled.img`
-  width: 100%;
-  height: 100%;
-  object-fit: contain; /* Or 'fill', 'cover', 'scale-down', 'none' */
-  display: block; /* Removes extra space below image if it's inline */
-`;
-
-export const GradientOverlay = styled.div`
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, hsl(0, 0%, 0%) 100%);
+  background-color: black; /* Add a background color to fill the empty space */
 `;
