@@ -14,19 +14,22 @@ export function HeroContainer() {
       <Hero.Group direction="column">
         <Hero.TitleGroup margin="90px 0 0 0">
           <Hero.Title mobWidth="200px" maxWidth="455px" color="#474747">
-            Solar Energy is <Hero.Line />
+            PO Technology Ltd provides <Hero.Line />
           </Hero.Title>
 
           {/* Typewriter Animation Title */}
-          <Hero.Title mobWidth="250px" maxWidth="455px" color="#01924c">
+          <Hero.Title mobWidth="250px"  color="#01924c">
             <Typewriter
               options={{
                 strings: [
-                  "Clean",
-                  "Sustainable",
-                  "Powerful",
-                  "Cost-effective",
-                  "THE FUTURE!",
+                  "Innovative Solutions",
+                  "Solar Installations",
+                  "Solar Maintenance",
+                  "Sells and Services",
+                  "DI Printing",
+                  "Signage and SignBoards",
+                  "24/7 Technical Support",
+                  "CUTTING-EDGE TECHNOLOGY!",
                 ],
                 autoStart: true,
                 loop: true,

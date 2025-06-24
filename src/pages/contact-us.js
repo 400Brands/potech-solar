@@ -16,21 +16,62 @@ import emailjs from "@emailjs/browser";
 
 export default function ContactUs() {
   const [isHome] = useState(JSON.parse(localStorage.getItem("path")));
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
 
   const form = useRef();
 
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
   const sendForm = (e) => {
     e.preventDefault();
+
+    // Embed email and phone inside the message content
+    const fullMessage = `${formData.message}
+
+Contact Details:
+Email: ${formData.email}
+Phone: ${formData.phone}`;
+
+    // Use emailjs.send with email and phone embedded in the message
     emailjs
-      .sendForm("gmail", "template_tjowcw7", form.current, "zHz8XyfXUGOE0b4nB")
+      .send(
+        "service_s7nkbxq",
+        "template_jwp54kc",
+        {
+          title: "Contact Form Submission",
+          name: formData.name,
+          message: fullMessage,
+          time: new Date().toLocaleString(),
+        },
+        "eqtbZCiC9XzHZ47L4"
+      )
       .then(
         (result) => {
           console.log("success", result);
+          // Reset form data
+          setFormData({
+            name: "",
+            email: "",
+            phone: "",
+            message: "",
+          });
+          form.current.reset();
         },
         (error) => console.log("failed", error)
       );
-    form.current.reset();
   };
+
   return (
     <>
       {isHome === "home" ? (
@@ -59,7 +100,7 @@ export default function ContactUs() {
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  href="https://www.instagram.com/potechnologies/"
+                  href="https://www.instagram.com/potechnology_ltd/"
                 >
                   <FacebookLogo
                     fontSize={20}
@@ -70,7 +111,7 @@ export default function ContactUs() {
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  href="https://www.instagram.com/potechnologies/"
+                  href="https://www.instagram.com/potechnology_ltd/"
                 >
                   <InstagramLogo
                     fontSize={20}
@@ -79,7 +120,7 @@ export default function ContactUs() {
                   />
                 </a>
                 <a
-                  href="https://www.instagram.com/potechnologies/"
+                  href="https://www.instagram.com/potechnology_ltd/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -138,6 +179,8 @@ export default function ContactUs() {
                 required
                 type="text"
                 name="name"
+                value={formData.name}
+                onChange={handleInputChange}
               />
             </Form.Group>
             <Form.Group gap="8px">
@@ -148,6 +191,8 @@ export default function ContactUs() {
                 required
                 type="email"
                 name="email"
+                value={formData.email}
+                onChange={handleInputChange}
               />
             </Form.Group>
             <Form.Group gap="8px">
@@ -155,9 +200,11 @@ export default function ContactUs() {
               <Form.Input
                 id="phone"
                 placeholder="Enter your phone number"
-                type="number"
+                type="tel"
                 name="phone"
                 required
+                value={formData.phone}
+                onChange={handleInputChange}
               />
             </Form.Group>
             <Form.Group gap="8px">
@@ -169,6 +216,8 @@ export default function ContactUs() {
                 type="text"
                 rows="5"
                 cols="50"
+                value={formData.message}
+                onChange={handleInputChange}
               />
             </Form.Group>
             <Form.SubmitBtn

@@ -8,12 +8,12 @@ export function SmcContainer(props) {
     <SmcGroup {...props}>
       <SmcGroup.InfoHolder gap="8px" flex="1">
         <SmcGroup.Title mobWidth="150px" maxWidth="">
-          PO Technologies <Hero.Line />
+          PO Technology Ltd <Hero.Line />
         </SmcGroup.Title>
         <Hero.Desc maxWidth="600px">
-          PO Tech provides all relative works & services to Solar Energy.Also
-          provides Training for Solar Installations and maintenance of different
-          Solar kits.
+          PO Technology Ltd provides all relative works & services to Solar
+          Energy.Also provides Training for Solar Installations and maintenance
+          of different Solar kits.
         </Hero.Desc>
       </SmcGroup.InfoHolder>
       <SmcGroup.Group>
@@ -26,7 +26,7 @@ export function SmcContainer(props) {
           <SmcGroup.Round>
             <SmcGroup.Image src="house" />
           </SmcGroup.Round>
-          <SmcGroup.CompanyName>PO Tech Solar</SmcGroup.CompanyName>
+          <SmcGroup.CompanyName> PO Technology Ltd </SmcGroup.CompanyName>
           <SmcGroup.Description>
             A fresh outbreak that provides all relative works & services to
             Solar Energy
@@ -52,7 +52,10 @@ export function SmcContainer(props) {
           <SmcGroup.Round>
             <SmcGroup.Image src="woman" />
           </SmcGroup.Round>
-          <SmcGroup.CompanyName>PO Tech Academy</SmcGroup.CompanyName>
+          <SmcGroup.CompanyName>
+            {" "}
+            PO Technology Academy
+          </SmcGroup.CompanyName>
           <SmcGroup.Description>
             Providing multiple Training Programs for engineering students in
             different branches.

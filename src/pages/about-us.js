@@ -13,7 +13,7 @@ export default function AboutUs() {
             About Us
             <Hero.Line />
           </Form.PageName>
-          <Form.Text>Who are we? Our mission & vission?</Form.Text>
+          <Form.Text>Who are we? Our Mission & Vision?</Form.Text>
           <lottie-player
             src="https://assets9.lottiefiles.com/packages/lf20_xwipaalv.json"
             background="transparent"
@@ -35,7 +35,7 @@ export default function AboutUs() {
             <About.CardDesc>
               PO Technology is a forward-thinking engineering firm committed to
               innovation, creativity, and practical solutions in the fields of
-              electronics, robotics, mechanical systems, automation, AI,
+              electronics, robotics, mechanical systems, automation,
               electric vehicles, and clean energy. Founded by passionate
               technologists, we specialize in research, design, construction,
               manufacturing, training, and consulting. 
@@ -45,7 +45,7 @@ export default function AboutUs() {
             <About.Round>
               <Target size="26px" color="var(--color-hover)" />
             </About.Round>
-            <About.CardTitle>Mission</About.CardTitle>
+            <About.CardTitle>Our Mission</About.CardTitle>
             <About.CardDesc>
               Our mission is to engineer meaningful innovations that improve
               lives, empower industries, and promote technological independence.
@@ -59,7 +59,7 @@ export default function AboutUs() {
             <About.Round>
               <Eye size="26px" color="var(--color-hover)" />
             </About.Round>
-            <About.CardTitle>Vision</About.CardTitle>
+            <About.CardTitle> Our Vision</About.CardTitle>
             <About.CardDesc>
               Our vision is to become a globally recognized center of excellence
               in engineering and innovation—leading the charge in Africa’s

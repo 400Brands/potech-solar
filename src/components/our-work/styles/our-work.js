@@ -30,8 +30,41 @@ export const Inner = styled.div`
 
 export const ImageHolder = styled.div`
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, hsl(0, 0%, 0%) 100%),
-    url(${({ src }) => src}) center / contain no-repeat; /* Changed 'cover' to 'contain' */
+    url(${({ src }) => src}) center / 100% 100% no-repeat;
   width: 100%;
   height: 450px;
-  background-color: black; /* Add a background color to fill the empty space */
+  background-color: black;
+`;
+
+export const VideoHolder = styled.div`
+  width: 100%;
+  height: 450px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; // Matches your image contain behavior
+    background-color: black;
+  }
+
+  // Optional: Add gradient overlay like images
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      hsl(0, 0%, 0%) 100%
+    );
+    pointer-events: none;
+  }
 `;
