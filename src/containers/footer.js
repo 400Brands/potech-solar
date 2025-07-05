@@ -7,6 +7,7 @@ import {
   LinkedinLogo,
   MapPin,
   Phone,
+  YoutubeLogo,
 } from "phosphor-react";
 export function FooterContainer() {
   const iconColor = "rgb(255, 255, 255)";
@@ -38,17 +39,17 @@ export function FooterContainer() {
             </a>
             <a
               rel="noreferrer"
-              href="https://www.instagram.com/potechnologies/"
+              href="https://www.instagram.com/potechnology_ltd/"
               target="_blank"
             >
               <InstagramLogo fontSize={iconSize} color={iconColor} />
             </a>
             <a
               rel="noreferrer"
-              href="https://www.instagram.com/potechnologies/"
+              href="https://youtube.com/@potechnology_ltd?si=DZFkNILvcUPulbQv"
               target="_blank"
             >
-              <LinkedinLogo fontSize={iconSize} color={iconColor} />
+              <YoutubeLogo fontSize={iconSize} color={iconColor} />
             </a>
           </Footer.Group>
         </Footer.Column>
