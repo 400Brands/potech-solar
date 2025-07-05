@@ -4,7 +4,6 @@ import {
   Copyright,
   FacebookLogo,
   InstagramLogo,
-  LinkedinLogo,
   MapPin,
   Phone,
   YoutubeLogo,
