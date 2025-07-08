@@ -14,6 +14,7 @@ import {
   NavLinksMob,
   GroupMob,
 } from "./styles/header";
+
 export default function Header({ children, ...restProps }) {
   return (
     <Container {...restProps}>
@@ -64,23 +65,77 @@ Header.Button = function HeaderButton({ to, children, ...restProps }) {
 
 Header.AcademyLogo = function HeaderAcademyLogo() {
   return (
-    <div>
+    <div style={{
+      display: 'flex',
+      alignItems: 'center',
+      gap: '5px',
+      fontWeight: 'bold',
+      fontSize: '18px',
+      color: '#000000'
+    }}>
       <img
-        src="https://res.cloudinary.com/dgbreoalg/image/upload/v1748880341/Your_paragraph_text__2_-removebg-preview_eyxggg.png"
+        src="https://res.cloudinary.com/dgbreoalg/image/upload/v1751372101/WhatsApp_Image_2025-06-28_at_14.54.28_a25a99eb-removebg-preview_zoi1lu.png"
         alt="logo"
-        width={150}
+        width={65}
+        style={{ display: 'block' }}
       />
+      <div style={{ 
+        display: 'flex',
+        flexDirection: 'column',
+        lineHeight: '1.2'
+      }}>
+        <span style={{ 
+          fontWeight: 'bold',
+          color: '#474747',
+          marginTop: "12px",
+          fontSize: '24px',
+          letterSpacing: '0.5px'
+        }}>
+          Technology
+        </span>
+        <span style={{ 
+          color: '#000000',
+          fontWeight: 'bold',
+          fontSize: '12px',
+          alignSelf: 'flex-end'
+        }}>
+          Academy
+        </span>
+      </div>
     </div>
   );
 };
+
 Header.Logo = function HeaderLogo() {
   return (
-    <div>
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyItems: "between",
+        gap: "5px",
+        fontWeight: "bold",
+        fontSize: "18px",
+        color: "#000000",
+      }}
+    >
       <img
-        src="https://res.cloudinary.com/dgbreoalg/image/upload/v1748879928/Your_paragraph_text__1_-removebg-preview_rvto74.png"
+        src="https://res.cloudinary.com/dgbreoalg/image/upload/v1751372101/WhatsApp_Image_2025-06-28_at_14.54.28_a25a99eb-removebg-preview_zoi1lu.png"
         alt="logo"
-        width={150}
+        width={65}
+        style={{ display: "block" }}
       />
+      <span
+        style={{
+          fontWeight: "bold",
+          marginTop: "12px",
+          color: "#474747",
+          fontSize: "24px",
+          letterSpacing: "0.5px",
+        }}
+      >
+        Technology Ltd
+      </span>
     </div>
   );
 };

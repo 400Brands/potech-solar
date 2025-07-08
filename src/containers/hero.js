@@ -29,7 +29,6 @@ export function HeroContainer() {
                   "DI Printing",
                   "Signage and SignBoards",
                   "24/7 Technical Support",
-                  "CUTTING-EDGE TECHNOLOGY!",
                 ],
                 autoStart: true,
                 loop: true,
