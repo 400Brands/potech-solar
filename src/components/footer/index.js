@@ -26,7 +26,7 @@ Footer.Desc = function FooterDesc({ children, ...restProps }) {
 Footer.Logo = function FooterLogo() {
   return (
     <img
-      src="https://res.cloudinary.com/dgbreoalg/image/upload/v1749310928/96ca3dff-2f35-47b6-b836-18bdb85d345a_j7puhz.png"
+      src="https://res.cloudinary.com/dgbreoalg/image/upload/v1751372101/WhatsApp_Image_2025-06-28_at_14.54.28_a25a99eb-removebg-preview_zoi1lu.png"
       alt="footer logo"
       width={150}
     />

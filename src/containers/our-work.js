@@ -35,7 +35,9 @@ export function OurWorkContainer(props) {
           <Hero.Line />
         </SmcGroup.Title>
         <Hero.Desc maxWidth="600px">
-          Here is some screen play of some of our works.
+          Welcome to a showcase of what happens when vision, engineering, and
+          craftsmanship collide. These are not just projects—they're milestones
+          in our quest to build intelligently, beautifully, and purposefully.
         </Hero.Desc>
       </SmcGroup.InfoHolder>
     </OurWork>

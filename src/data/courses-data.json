@@ -227,7 +227,7 @@
   {
     "category": "Electrical",
     "name": "electrical",
-    "src": "/images/categories/electrical.png",
+    "src": "https://res.cloudinary.com/dgbreoalg/image/upload/v1752681923/7fca88d702c31a157947a1e8c29b6094_eozshm.jpg",
     "courses": [
       {
         "name": "Distribution Training (by SMC & Eduvate)",
@@ -281,9 +281,9 @@
   },
 
   {
-    "category": "Construction",
-    "name": "construction",
-    "src": "/images/categories/construction.png",
+    "category": "Signage Construction",
+    "name": "Signage construction",
+    "src": "https://res.cloudinary.com/dgbreoalg/image/upload/v1752681391/7063bcf59af530726d18f30231b46e1e_p8x4jo.jpg",
     "courses": [
       {
         "name": "BIM",

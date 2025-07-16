@@ -29,7 +29,7 @@ export function SmcContainer(props) {
           <SmcGroup.CompanyName> PO Technology Ltd </SmcGroup.CompanyName>
           <SmcGroup.Description>
             A fresh outbreak that provides all relative works & services to
-            Solar Energy
+            Solar Energy, Signages, Printings
           </SmcGroup.Description>
           <Header.Button
             color="var(--secondry-color)"

@@ -125,17 +125,22 @@ Header.Logo = function HeaderLogo() {
         width={65}
         style={{ display: "block" }}
       />
-      <span
-        style={{
-          fontWeight: "bold",
-          marginTop: "12px",
-          color: "#474747",
-          fontSize: "24px",
-          letterSpacing: "0.5px",
-        }}
-      >
-        Technology Ltd
-      </span>
+      <div style={{ 
+        display: 'flex',
+        flexDirection: 'column',
+        lineHeight: '1.2'
+      }}>
+        <span style={{ 
+          fontWeight: 'bold',
+          color: '#474747',
+          marginTop: "15px",
+          fontSize: '24px',
+          letterSpacing: '0.5px'
+        }}>
+          Technology Ltd
+        </span>
+        
+      </div>
     </div>
   );
 };

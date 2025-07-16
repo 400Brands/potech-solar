@@ -14,9 +14,9 @@ export function InstallmentContainer() {
           <Hero.Desc maxWidth="800px">
             Now you can buy a solar power plant, solar heater or solar
             headlights and pay the same price as cash. you can
-            <Benefits.TextColor> make Payment</Benefits.TextColor> your invoice
-            <Benefits.TextColor> without interest</Benefits.TextColor> throught
-            the following banks:
+            <br />
+            <Benefits.TextColor> Make Payment</Benefits.TextColor> Wema Bank - 0125605188 || Peter Olaniyan <br/>
+            <Benefits.TextColor> Bank 2 - </Benefits.TextColor> Polaris Bank - 4091895209 || Peter Olaniyan
           </Hero.Desc>
         </Installment.Group>
         <Installment.ImagesGroup width="70%">

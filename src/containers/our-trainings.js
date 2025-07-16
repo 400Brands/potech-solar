@@ -7,12 +7,22 @@ export function OurTrainingContainer() {
   return (
     <OurWork direction="row-reverse" id="gallery">
       <Slider>
-        {sliderAcademy.map(({ src }) => (
-          <OurWork.ImageHolder
-            key={src}
-            src={handelLazyLoadBackgroundImage(src) || PLACE_HOLDER}
-          />
-        ))}
+        {sliderAcademy.map((item, index) => {
+          // Check item type instead of index position
+          if (item.type === "video") {
+            return (
+              <OurWork.VideoHolder key={`video-${index}`} src={item.src} />
+            );
+          }
+
+          // Handle images
+          return (
+            <OurWork.ImageHolder
+              key={`image-${index}`} // Better key naming
+              src={handelLazyLoadBackgroundImage(item.src) || PLACE_HOLDER}
+            />
+          );
+        })}
       </Slider>
       <SmcGroup.InfoHolder width="38.4%">
         <SmcGroup.Title isLong="200px" mobWidth="200px" maxWidth="330px">
