@@ -18,18 +18,14 @@ export function SmcContainer(props) {
       </SmcGroup.InfoHolder>
       <SmcGroup.Group>
         <SmcGroup.Card mobWidth="85%">
-          <img
-            src="https://res.cloudinary.com/dgbreoalg/image/upload/v1748879928/Your_paragraph_text__1_-removebg-preview_rvto74.png"
-            alt="logo"
-            width={150}
-          />
+          
           <SmcGroup.Round>
             <SmcGroup.Image src="house" />
           </SmcGroup.Round>
           <SmcGroup.CompanyName> PO Technology Ltd </SmcGroup.CompanyName>
           <SmcGroup.Description>
-            A fresh outbreak that provides all relative works & services to
-            Solar Energy, Signages, Printings
+            Renewable energy sells, installation and maintenance, signboard construction, printing and trading &
+            more
           </SmcGroup.Description>
           <Header.Button
             color="var(--secondry-color)"
@@ -44,18 +40,11 @@ export function SmcContainer(props) {
           </Header.Button>
         </SmcGroup.Card>
         <SmcGroup.Card mobWidth="85%">
-          <img
-            src="https://res.cloudinary.com/dgbreoalg/image/upload/v1748880341/Your_paragraph_text__2_-removebg-preview_eyxggg.png"
-            alt="our services"
-            width={150}
-          />
+          
           <SmcGroup.Round>
             <SmcGroup.Image src="woman" />
           </SmcGroup.Round>
-          <SmcGroup.CompanyName>
-            {" "}
-            PO Technology Academy
-          </SmcGroup.CompanyName>
+          <SmcGroup.CompanyName> PO Technology Academy</SmcGroup.CompanyName>
           <SmcGroup.Description>
             Providing multiple Training Programs for engineering students in
             different branches.

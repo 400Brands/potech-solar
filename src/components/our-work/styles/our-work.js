@@ -29,8 +29,7 @@ export const Inner = styled.div`
 `;
 
 export const ImageHolder = styled.div`
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, hsl(0, 0%, 0%) 100%),
-    url(${({ src }) => src}) center / 100% 100% no-repeat;
+  background: url(${({ src }) => src}) center / 100% 100% no-repeat;
   width: 100%;
   height: 450px;
   background-color: black;

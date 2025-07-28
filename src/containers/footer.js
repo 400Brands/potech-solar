@@ -17,8 +17,8 @@ export function FooterContainer() {
         <Footer.Column self="flex-end" gap="16px">
           <Footer.Logo />
           <Footer.Desc maxWidth="430px">
-            Provides all relative works & services to Solar Energy. Also
-            provides Trainings for students and youth in different branches.
+            Renewable energy sells, installation and maintenance, signboard
+            construction, printing and trading & more
           </Footer.Desc>
           <Footer.Group gap="4px">
             <Copyright color={iconColor} />
@@ -31,7 +31,7 @@ export function FooterContainer() {
           <Footer.Group gap="8px">
             <a
               rel="noreferrer"
-              href="https://www.instagram.com/potechnologies/"
+              href="https://www.facebook.com/share/19fX5iUefS/"
               target="_blank"
             >
               <FacebookLogo fontSize={iconSize} color={iconColor} />

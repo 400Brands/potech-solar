@@ -15,8 +15,10 @@ export function InstallmentContainer() {
             Now you can buy a solar power plant, solar heater or solar
             headlights and pay the same price as cash. you can
             <br />
-            <Benefits.TextColor> Make Payment</Benefits.TextColor> Wema Bank - 0125605188 || Peter Olaniyan <br/>
-            <Benefits.TextColor> Bank 2 - </Benefits.TextColor> Polaris Bank - 4091895209 || Peter Olaniyan
+            <Benefits.TextColor> Make Payment</Benefits.TextColor> Wema Bank -
+            0125605188 || Peter Olaniyan Technology limited <br />
+            <Benefits.TextColor> Bank 2 - </Benefits.TextColor> Polaris Bank -
+            4091895209 || Peter Olaniyan Technology limited
           </Hero.Desc>
         </Installment.Group>
         <Installment.ImagesGroup width="70%">

@@ -6,13 +6,5 @@
     {
         "src": "https://res.cloudinary.com/dgbreoalg/image/upload/v1752680039/Polaris-Bank_f3r0iy.jpg",
         "name": "Polaris Bank"
-    },
-    {
-        "src": "/images/banks/bank3.png",
-        "name": "random-bank"
-    },
-    {
-        "src": "/images/banks/watn.jpg",
-        "name": "random-bank"
     }
 ]

@@ -95,12 +95,12 @@ Phone: ${formData.phone}`;
           </Form.Text>
           <div className="social-group">
             <Form.SocialContent bgColor="rgba(2, 115, 133, 0.1)">
-              <Form.SocialTitle color="#027385">POTECH Group</Form.SocialTitle>
+              <Form.SocialTitle color="#027385">POTECH Ltd</Form.SocialTitle>
               <Form.SocialMediaLinks>
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  href="https://www.instagram.com/potechnology_ltd/"
+                  href="https://www.facebook.com/share/19fX5iUefS/"
                 >
                   <FacebookLogo
                     fontSize={20}
@@ -120,7 +120,7 @@ Phone: ${formData.phone}`;
                   />
                 </a>
                 <a
-                  href="https://www.instagram.com/potechnology_ltd/"
+                  href="https://www.linkedin.com/in/peter-olaniyan-333a89318/"
                   target="_blank"
                   rel="noreferrer"
                 >
